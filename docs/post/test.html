@@ -10,13 +10,13 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="<img width='872' height='162' alt='Image' src='https://github.com/user-attachments/assets/9477fbc2-e0ae-4d52-9fbf-89aadb1f0f7e' />。">
-<meta property="og:title" content="test">
-<meta property="og:description" content="<img width='872' height='162' alt='Image' src='https://github.com/user-attachments/assets/9477fbc2-e0ae-4d52-9fbf-89aadb1f0f7e' />。">
+<meta name="description" content="用 GitHub 搜索关键词/Topics，再配合几份热门仓库，就能快速找到想看的科技周报。">
+<meta property="og:title" content="如何在 GitHub 上找到科技周报">
+<meta property="og:description" content="用 GitHub 搜索关键词/Topics，再配合几份热门仓库，就能快速找到想看的科技周报。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://gold-wave.github.io/post/test.html">
 <meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
-<title>test</title>
+<title>如何在 GitHub 上找到科技周报</title>
 
 
 
@@ -49,7 +49,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 <body>
     <div id="header">
-<h1 class="postTitle">test</h1>
+<h1 class="postTitle">如何在 GitHub 上找到科技周报</h1>
 <div class="title-right">
     <a href="https://gold-wave.github.io" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
@@ -73,7 +73,13 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/9477fbc2-e0ae-4d52-9fbf-89aadb1f0f7e"><img width="872" height="162" alt="Image" src="https://github.com/user-attachments/assets/9477fbc2-e0ae-4d52-9fbf-89aadb1f0f7e" style="max-width: 100%; height: auto; max-height: 162px;"></a></p></div>
+<div class="markdown-body" id="postBody"><p>想在 GitHub 上翻科技周报，可以按下面的顺序快速定位到合适的仓库：</p>
+<ol>
+<li><strong>直接搜索关键词</strong>：打开<a href="https://github.com/search?q=%E7%A7%91%E6%8A%80+%E5%91%A8%E6%8A%A5+weekly+stars%3A%3E50+sort%3Astars" target="_blank" rel="noopener noreferrer">GitHub 搜索</a>，输入“科技 周报 weekly stars:&gt;50 sort:stars”等关键词，优先查看 Star 高的结果。</li>
+<li><strong>用 Topics 筛选</strong>：进入 <a href="https://github.com/topics/weekly" target="_blank" rel="noopener noreferrer">topics/weekly</a>、<a href="https://github.com/topics/weekly-report" target="_blank" rel="noopener noreferrer">topics/weekly-report</a> 这类主题页，可按 Star/更新时间排序发现活跃仓库。</li>
+<li><strong>收藏常用周报仓库</strong>：例如 <a href="https://github.com/ruanyf/weekly" target="_blank" rel="noopener noreferrer">ruanyf/weekly</a>（科技爱好者周刊）、<a href="https://github.com/Doocs/weekly" target="_blank" rel="noopener noreferrer">Doocs/weekly</a>（技术/开源周刊）、<a href="https://github.com/oldratlee/software-weekly" target="_blank" rel="noopener noreferrer">oldratlee/software-weekly</a>（软件资讯周报）。点 Star 或 Watch 后即可在通知中同步更新。</li>
+</ol>
+<p>如果想订阅，可以把仓库的 RSS（如 <code>https://raw.githubusercontent.com/&lt;repo&gt;/master/rss.xml</code>）加入阅读器，或在仓库设置里开启通知。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
